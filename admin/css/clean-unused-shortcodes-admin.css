@@ -1,0 +1,68 @@
+.tools_page_clean-unused-shortcodes #cus_feedback_modal {
+    display: none;
+}
+.tools_page_clean-unused-shortcodes .cus-field-row {
+    display: flex;
+    align-items: center;
+}
+.tools_page_clean-unused-shortcodes .cus-field-row:not(:first-child){
+    margin-top: 30px;
+}
+.tools_page_clean-unused-shortcodes .cus-field-row label {
+    font-weight: bold;
+    margin-right: 30px;
+    width: 100px;
+}
+.tools_page_clean-unused-shortcodes #cus_select_post_type {
+    width: 300px;
+}
+.tools_page_clean-unused-shortcodes #cus_clean_shortcodes{
+    width: 120px;
+    height: 40px;
+    left: 175px;
+    top: 2116px;
+    color: white;
+    background: #263E50;
+    border-radius: 34px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools_page_clean-unused-shortcodes #cus_clean_shortcodes:disabled{
+    background: #567185 !important;
+}
+.tools_page_clean-unused-shortcodes #cus_clean_shortcodes:hover{
+    background: #395870;
+    transition: .5s ease all;
+}
+.tools_page_clean-unused-shortcodesw .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: 1px solid #697789;
+    padding: 5px 10px;
+}
+.tools_page_clean-unused-shortcodes .select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #263E50;
+    border: 1px solid #263E50;
+    color: white;
+}
+.tools_page_clean-unused-shortcodes .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: white !important;
+}
+.tools_page_clean-unused-shortcodes .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #efefef !important;
+}
+.tools_page_clean-unused-shortcodes .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #263E50 !important;
+    color: white;
+}
+#cus_clean_shortcodes svg {
+    display: none;
+}
+#cus_clean_shortcodes.cus_loading svg {
+    display: block;
+    margin-left: 10px;
+}
+.cus_loading svg rect,
+.cus_loading svg path{
+    fill: white;
+}
